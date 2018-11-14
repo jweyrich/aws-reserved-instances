@@ -107,7 +107,7 @@ def get_ec2_reserved_instances(session):
 		yield EC2Reservation(row)
 
 def print_reserved_instance(obj):
-	separator = '\t '
+	separator = ','
 	print("%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s" % (
 		obj.iid, separator,
 		obj.itype, separator,
