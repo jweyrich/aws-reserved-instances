@@ -1,4 +1,4 @@
-Python script to print a CSV containing the details of all AWS reserved instances in given account and region.
+Python script to print a CSV containing the details of all active AWS reserved instances in given account and region.
 
 ### How to use
 
